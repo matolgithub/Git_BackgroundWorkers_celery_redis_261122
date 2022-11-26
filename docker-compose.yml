@@ -1,0 +1,14 @@
+version: "3.9"
+
+#networks:
+#  dev_network:
+
+services:
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+#    networks:
+#      dev_network:
+#        - aliases:
+#            - db-redis
